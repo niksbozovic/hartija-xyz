@@ -10,11 +10,28 @@
 <body>
 	<section class="vid">
 		<div class="holder">
-			<video src="./images/landing-page.mp4" autoplay muted loop playsinline></video>
+			<video id=vid autoplay muted loop playsinline></video>
 		</div>
 	</section>
 
 	<script src="scrubbing.js"></script>
+
+	<script type="text/javascript">
+		function loadvideo() {
+		var mobileSrc = "./images/landing-page-vertical.mp4";
+		var desktopSrc = "./images/landing-page.mp4";
+ 
+   			if (window.innerWidth > 630){
+       			$("#vid").attr("src",desktopSrc);
+    		}else{
+       			$("#vid").attr("src",mobileSrc);
+    		}
+		}
+
+  		window.addEventListener("resize", loadvideo);
+  		window.onload=loadvideo; 
+
+	</script>
 
 </body>
 </html>
