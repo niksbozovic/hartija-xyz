@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #2A2A2C;
+}
+
+section.vid {
+  height: 1000vh;
+}
+
+section.vid div.holder {
+  position: sticky;
+  top: 0;
+}
+
+section.vid video {
+  width: 100%;
+  height: 100%;
+}
