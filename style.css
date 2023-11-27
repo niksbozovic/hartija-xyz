@@ -13,21 +13,7 @@ section.vid div.holder {
   top: 0;
 }
 
-section.vid video.desktop {
+section.vid video {
   width: 100%;
   height: 100%;
-}
-
-section.vid video.mobile{
-    display:none;
-}
-
-@media only screen and (max-width: 600px) {
-   section.vid video.desktop{
-        display:none;
-    }
-    section.vid video.mobile{
-        width:100%;
-        height:100%;
-    }
 }
