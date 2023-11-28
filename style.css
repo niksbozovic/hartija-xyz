@@ -1,13 +1,15 @@
 @font-face {
   font-family: "Antikva Neue";
-  src: url('.fonts/Antikva Neue.woff2') format('woff2');
+  src: url('https://github.com/niksbozovic/hartija-xyz/blob/f726c911702a7331f5640b0922e543a2df6d3216/fonts/Antikva%20Neue.woff2') format('woff2');
   font-weight: 700;
   font-style: italic;
 }
 
+
+
 @font-face {
   font-family: "Ortica Linear Light";
-  src: url('.fonts/OrticaLinear-Light.woff2') format('woff2');
+  src: url('https://github.com/niksbozovic/hartija-xyz/blob/f726c911702a7331f5640b0922e543a2df6d3216/fonts/OrticaLinear-Light.woff2') format('woff2');
   font-weight: 100;
   font-style: normal;
 }
@@ -32,6 +34,8 @@ header {
 
 header h1 {
   font-family: "Antikva Neue", serif;
+  font-weight: 700;
+  font-style: italic;
   font-size: 20px;
   color: #242526;
   width:200px;
@@ -40,6 +44,7 @@ header h1 {
 
 p{
   font-family: "Ortica Linear Light", serif;
+  font-weight: 100;
   font-size: 20px;
   color: #242526;
   margin: 0;
