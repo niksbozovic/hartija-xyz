@@ -23,7 +23,7 @@ section.grid {
 }
 
 .img-wrapper {
-  position: relative;
+  position: absolute;
   overflow: hidden;
 }
 
@@ -36,7 +36,7 @@ section.grid {
 }
 
 .img-wrapper > .content {
-  position: absolute;
+  position: relative;
   width: 100%;
   border-radius: 50%;
   display: block;
