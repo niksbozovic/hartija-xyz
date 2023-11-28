@@ -19,7 +19,7 @@ section.grid {
   grid-row-gap: 1.5vw;
   grid-column-gap: 5vw;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 
 .img-wrapper {
