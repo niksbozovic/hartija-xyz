@@ -1,7 +1,75 @@
-* {
+@font-face {
+  font-family: "Antikva Neue";
+  src: url('.fonts/Antikva Neue.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ortica Linear Light";
+  src: url('.fonts/OrticaLinear-Light.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
   margin: 0;
   box-sizing: border-box;
   background-color: #2A2A2C;
+}
+
+header {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  background-color: rgba(234, 225, 197, 1.0);
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+
+header h1 {
+  font-family: "Antikva Neue", serif;
+  font-size: 20px;
+  color: #242526;
+  width:200px;
+  margin: 0;  
+}
+
+p{
+  font-family: "Ortica Linear Light", serif;
+  font-size: 20px;
+  color: #242526;
+  margin: 0;
+}
+
+nav a {
+  color: #242526;
+  text-decoration: none;
+}
+
+nav a.lan:hover {
+  color: #868BE9;
+}
+
+nav a.pamuk:hover {
+  color: #FF3D5A;
+}
+
+nav a.bambus:hover {
+  color: #6FB563;
+}
+
+#naslov {
+  margin-left: 30px;
+  justify-self: left;
+}
+
+nav {
+  margin-right: 30px;
+  justify-self: right;
 }
 
 section.vid div.holder {
@@ -27,37 +95,10 @@ section.grid {
   overflow: hidden;
 }
 
-.img-wrapper img {
-  display: block;
+.img-wrapper img{
+  display: inline-block;
   width: 100%;
   border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.img-wrapper > .content {
-  position: relative;
-  width: 100%;
-  border-radius: 50%;
-  display: block;
-}
-
-.img-wrapper > img,
-.img-wrapper > .content {
-  transition: 200ms ease-in-out;
-}
-
-.img-wrapper > img,
-.img-wrapper > .content {
-  transition: 200ms ease-in-out;
-}
-
-.img-wrapper > img:hover > .content {
-  opacity: 0;
-}
-
-.img-wrapper > img:hover > .content {
-  opacity: 1;
 }
 
 
