@@ -17,7 +17,9 @@ section.grid {
   display: grid;
   margin: 12vh 10vw;
   grid-row-gap: 1.5vw;
-  grid-column-gap: 2vw;
+  grid-column-gap: 5vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-wrapper {
@@ -38,8 +40,6 @@ section.grid {
   width: 100%;
   border-radius: 50%;
   display: block;
-  justify-content: center;
-  align-items: center;
 }
 
 .img-wrapper > img,
@@ -74,5 +74,3 @@ section.grid {
       grid-template-columns: auto auto auto;
     }
 }
-
-
