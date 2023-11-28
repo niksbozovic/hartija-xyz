@@ -19,7 +19,7 @@ section.grid {
   grid-row-gap: 1.5vw;
   grid-column-gap: 5vw;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .img-wrapper {
@@ -40,6 +40,11 @@ section.grid {
   width: 100%;
   border-radius: 50%;
   display: block;
+}
+
+.img-wrapper > img,
+.img-wrapper > .content {
+  transition: 200ms ease-in-out;
 }
 
 .img-wrapper > img,
