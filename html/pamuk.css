@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: "Ortica Linear Light";
-  src: url('./fonts/OrticaLinear-Light.woff2') format('woff2'),
-       url('./fonts/OrticaLinear-Light.woff') format('woff');
+  src: url('../fonts/OrticaLinear-Light.woff2') format('woff2'),
+       url('../fonts/OrticaLinear-Light.woff') format('woff');
   font-weight: 100;
   font-style: normal;
 }
@@ -253,7 +253,7 @@ section.grid img{
     }
 
     section#pamuk-01 {
-      height: 50vh;
+      height: 30vh;
     }
 
     section#pamuk-01 div.text-holder {
@@ -261,7 +261,7 @@ section.grid img{
     }
 
     section#pamuk-02 {
-      height: 50vh;
+      height: 80vh;
     }
 
     section#pamuk-02 div.text-holder {
@@ -269,7 +269,7 @@ section.grid img{
     }
 
     section#pamuk-03 {
-      height: 50vh;
+      height: 80vh;
     }
 
     section#pamuk-03 div.text-holder {
