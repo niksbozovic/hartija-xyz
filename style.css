@@ -121,15 +121,17 @@ section#opis span {
 
 section.grid {
   display: grid;
-  margin: 12vh 10vw;
+  margin: 5vh 5vw 5vh 15vw;
   grid-row-gap: 5vw;
   grid-column-gap: 5vw;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
 }
 
 section.grid img{
   width: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -138,11 +140,11 @@ section.grid img{
         display: none;
     }
     section.grid {
-      grid-template-columns: auto;
+      grid-template-columns: auto auto auto;
     }
 
     section#opis {
-      height: 75vh;
+      height: 65vh;
     }
 
     section#opis div.text-holder {
