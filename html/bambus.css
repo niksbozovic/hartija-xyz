@@ -105,14 +105,14 @@ section.vid video {
   width: 100%;
 }
 
-section#pamuk-01 {
+section#bambus-01 {
   display: block;
   position: relative;
   background: #eae1c5;
   padding: 0;
 }
 
-section#pamuk-01 div.text-holder {
+section#bambus-01 div.text-holder {
   margin: 8% 20%;
   display: block;
   position: absolute;
@@ -120,14 +120,14 @@ section#pamuk-01 div.text-holder {
   align-content: center;
 }
 
-section#pamuk-01 p{
+section#bambus-01 p{
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   display: block;
   color: #242526;
 }
 
-section#pamuk-01 span {
+section#bambus-01 span {
   font-family: "Antikva Neue";
   font-weight: 700;
   font-style: italic;
@@ -135,14 +135,14 @@ section#pamuk-01 span {
   color: #FF3D5A;
 }
 
-section#pamuk-01 {
+section#bambus-01 {
   display: block;
   position: relative;
   background: #eae1c5;
   padding: 0;
 }
 
-section#pamuk-01 div.text-holder {
+section#bambus-01 div.text-holder {
   margin: 8% 20%;
   display: block;
   position: absolute;
@@ -150,29 +150,29 @@ section#pamuk-01 div.text-holder {
   align-content: center;
 }
 
-section#pamuk-01 p{
+section#bambus-01 p{
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   display: block;
   color: #242526;
 }
 
-section#pamuk-01 span {
+section#bambus-01 span {
   font-family: "Antikva Neue";
   font-weight: 700;
   font-style: italic;
   display: inline;
-  color: #FF3D5A;
+  color: #6FB563;
 }
 
-section#pamuk-02 {
+section#bambus-02 {
   display: block;
   position: relative;
-  background: #FF3D5A;
+  background: #6FB563;
   padding: 0;
 }
 
-section#pamuk-02 div.text-holder {
+section#bambus-02 div.text-holder {
   margin: 5% 20%;
   display: block;
   position: absolute;
@@ -180,14 +180,14 @@ section#pamuk-02 div.text-holder {
   align-content: center;
 }
 
-section#pamuk-02 p{
+section#bambus-02 p{
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   display: block;
   color: #eae1c5;
 }
 
-section#pamuk-02 a, span {
+section#bambus-02 a, span {
   font-family: "Antikva Neue";
   font-weight: 700;
   font-style: italic;
@@ -196,14 +196,14 @@ section#pamuk-02 a, span {
   color: #242526;
 }
 
-section#pamuk-03 {
+section#bambus-03 {
   display: block;
   position: relative;
   background: #242526;
   padding: 0;
 }
 
-section#pamuk-03 div.text-holder {
+section#bambus-03 div.text-holder {
   margin: 2% 20%;
   display: block;
   position: absolute;
@@ -211,20 +211,20 @@ section#pamuk-03 div.text-holder {
   align-content: center;
 }
 
-section#pamuk-03 p{
+section#bambus-03 p{
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   display: block;
   color: #eae1c5;
 }
 
-section#pamuk-03 span {
+section#bambus-03 span {
   font-family: "Antikva Neue";
   font-weight: 700;
   font-style: italic;
   text-decoration: none;
   display: inline;
-  color: #FF3D5A;
+  color: #6FB563;
 }
 
 section.grid {
@@ -252,27 +252,27 @@ section.grid img{
       grid-template-columns: auto auto auto;
     }
 
-    section#pamuk-01 {
+    section#bambus-01 {
       height: 40vh  ;
     }
 
-    section#pamuk-01 div.text-holder {
+    section#bambus-01 div.text-holder {
       font-size: 20px;
     }
 
-    section#pamuk-02 {
+    section#bambus-02 {
       height: 80vh;
     }
 
-    section#pamuk-02 div.text-holder {
+    section#bambus-02 div.text-holder {
       font-size: 20px;
     }
 
-    section#pamuk-03 {
+    section#bambus-03 {
       height: 80vh;
     }
 
-    section#pamuk-03 div.text-holder {
+    section#bambus-03 div.text-holder {
       font-size: 20px;
     }
 }
@@ -287,27 +287,27 @@ section.grid img{
       grid-template-columns: auto auto auto;
     }
 
-    section#pamuk-01 {
+    section#bambus-01 {
       height: 50vh;
     }
 
-    section#pamuk-01 div.text-holder {
+    section#bambus-01 div.text-holder {
       font-size: 30px;
     }
 
-    section#pamuk-02 {
+    section#bambus-02 {
       height: 50vh;
     }
 
-    section#pamuk-02 div.text-holder {
+    section#bambus-02 div.text-holder {
       font-size: 30px;
     }
 
-    section#pamuk-03 {
+    section#bambus-03 {
       height: 50vh;
     }
 
-    section#pamuk-03 div.text-holder {
+    section#bambus-03 div.text-holder {
       font-size: 30px;
     }
 
