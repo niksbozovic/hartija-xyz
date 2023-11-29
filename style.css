@@ -89,7 +89,6 @@ section.vid video {
 }
 
 section#opis {
-  height: 75vh;
   display: block;
   position: relative;
   background: #eae1c5;
@@ -97,7 +96,7 @@ section#opis {
 }
 
 section#opis div.text-holder {
-  margin: 5% 40% 5% 10%;
+  margin: 10% 20%;
   display: block;
   position: absolute;
   justify-content: center;
@@ -107,7 +106,6 @@ section#opis div.text-holder {
 section#opis p{
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
-  font-size: 40px;
   display: block;
   color: #242526;
 }
@@ -117,7 +115,6 @@ section#opis span {
   font-weight: 700;
   font-style: italic;
   display: inline;
-  font-size: 40px;
   color: #242526;
 }
 
@@ -127,8 +124,12 @@ section.grid {
   margin: 12vh 10vw;
   grid-row-gap: 5vw;
   grid-column-gap: 5vw;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
+}
+
+section.grid img{
+  width: 50%;
 }
 
 
@@ -139,6 +140,14 @@ section.grid {
     section.grid {
       grid-template-columns: auto;
     }
+
+    section#opis {
+      height: 60vh;
+    }
+
+    section#opis div.text-holder {
+      font-size: 20px;
+    }
 }
     
 @media screen and (min-width: 701px) {
@@ -148,5 +157,13 @@ section.grid {
 
     section.grid {
       grid-template-columns: auto auto auto;
+    }
+
+    section#opis {
+      height: 75vh;
+    }
+
+    section#opis div.text-holder {
+      font-size: 30px;
     }
 }
