@@ -28,10 +28,9 @@ header {
   top: 0;
   margin: 0;
   padding: 10px 0 10px 0;
-  background-color: rgba(234, 225, 197, 1.0);
+  background-color: #eae1c5;
   display: grid;
   grid-template-columns: auto auto;
-
 }
 
 header h1 {
@@ -44,7 +43,7 @@ header h1 {
   margin: 0;  
 }
 
-p{
+header p{
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   font-size: 20px;
@@ -82,30 +81,54 @@ nav {
 section.vid div.holder {
   position: relative;
   top: 0;
+  padding: 0;
 }
 
 section.vid video {
   width: 100%;
 }
 
+section#opis {
+  height: 75vh;
+  display: block;
+  position: relative;
+  background: #eae1c5;
+  padding: 0;
+}
+
+section#opis div.text-holder {
+  margin: 5% 40% 5% 10%;
+  display: block;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+}
+
+section#opis p{
+  font-family: "Ortica Linear Light", serif;
+  font-weight: 100;
+  font-size: 40px;
+  display: block;
+  color: #242526;
+}
+
+section#opis span {
+  font-family: "Antikva Neue";
+  font-weight: 700;
+  font-style: italic;
+  display: inline;
+  font-size: 40px;
+  color: #242526;
+}
+
+
 section.grid {
   display: grid;
   margin: 12vh 10vw;
-  grid-row-gap: 1.5vw;
+  grid-row-gap: 5vw;
   grid-column-gap: 5vw;
   justify-content: center;
   align-items: center;
-}
-
-.img-wrapper {
-  position: absolute;
-  overflow: hidden;
-}
-
-.img-wrapper img{
-  display: inline-block;
-  width: 100%;
-  border-radius: 50%;
 }
 
 
