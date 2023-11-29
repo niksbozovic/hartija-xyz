@@ -33,7 +33,17 @@ header {
   grid-template-columns: auto auto;
 }
 
-header h1, a {
+header h1 {
+  font-family: "Antikva Neue", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+  color: #242526;
+  width:200px;
+  margin: 0;  
+}
+
+.naslov a {
   font-family: "Antikva Neue", serif;
   font-weight: 700;
   font-style: italic;
@@ -44,10 +54,10 @@ header h1, a {
   margin: 0;  
 }
 
-header a:hover{
+.naslov a:hover{
   font-family: "Ortica Linear Light";
   font-family: 100;
-  font-size: 20px ;
+  font-size: 20px;
 }
 
 header p{
