@@ -105,14 +105,14 @@ section.vid video {
   width: 100%;
 }
 
-section#bambus-01 {
+section#lan-01 {
   display: block;
   position: relative;
   background: #eae1c5;
   padding: 0;
 }
 
-section#bambus-01 div.text-holder {
+section#lan-01 div.text-holder {
   margin: 8% 20%;
   display: block;
   position: absolute;
@@ -120,29 +120,29 @@ section#bambus-01 div.text-holder {
   align-content: center;
 }
 
-section#bambus-01 p{
+section#lan-01 p{
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   display: block;
   color: #242526;
 }
 
-section#bambus-01 span {
+section#lan-01 span {
   font-family: "Antikva Neue";
   font-weight: 700;
   font-style: italic;
   display: inline;
-  color: #6FB563;
+  color: #868BE9;
 }
 
-section#bambus-01 {
+section#lan-01 {
   display: block;
   position: relative;
   background: #eae1c5;
   padding: 0;
 }
 
-section#bambus-01 div.text-holder {
+section#lan-01 div.text-holder {
   margin: 8% 20%;
   display: block;
   position: absolute;
@@ -150,29 +150,29 @@ section#bambus-01 div.text-holder {
   align-content: center;
 }
 
-section#bambus-01 p{
+section#lan-01 p{
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   display: block;
   color: #242526;
 }
 
-section#bambus-01 span {
+section#lan-01 span {
   font-family: "Antikva Neue";
   font-weight: 700;
   font-style: italic;
   display: inline;
-  color: #6FB563;
+  color: #868BE9;
 }
 
-section#bambus-02 {
+section#lan-02 {
   display: block;
   position: relative;
-  background: #6FB563;
+  background: #868BE9;
   padding: 0;
 }
 
-section#bambus-02 div.text-holder {
+section#lan-02 div.text-holder {
   margin: 5% 20%;
   display: block;
   position: absolute;
@@ -180,14 +180,14 @@ section#bambus-02 div.text-holder {
   align-content: center;
 }
 
-section#bambus-02 p{
+section#lan-02 p{
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   display: block;
   color: #eae1c5;
 }
 
-section#bambus-02 a, span {
+section#lan-02 a, span {
   font-family: "Antikva Neue";
   font-weight: 700;
   font-style: italic;
@@ -196,14 +196,14 @@ section#bambus-02 a, span {
   color: #242526;
 }
 
-section#bambus-03 {
+section#lan-03 {
   display: block;
   position: relative;
   background: #242526;
   padding: 0;
 }
 
-section#bambus-03 div.text-holder {
+section#lan-03 div.text-holder {
   margin: 2% 20%;
   display: block;
   position: absolute;
@@ -211,20 +211,20 @@ section#bambus-03 div.text-holder {
   align-content: center;
 }
 
-section#bambus-03 p{
+section#lan-03 p{
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   display: block;
   color: #eae1c5;
 }
 
-section#bambus-03 span {
+section#lan-03 span {
   font-family: "Antikva Neue";
   font-weight: 700;
   font-style: italic;
   text-decoration: none;
   display: inline;
-  color: #6FB563;
+  color: #868BE9;
 }
 
 section.grid {
@@ -252,27 +252,27 @@ section.grid img{
       grid-template-columns: auto auto auto;
     }
 
-    section#bambus-01 {
+    section#lan-01 {
       height: 40vh  ;
     }
 
-    section#bambus-01 div.text-holder {
+    section#lan-01 div.text-holder {
       font-size: 20px;
     }
 
-    section#bambus-02 {
+    section#lan-02 {
       height: 80vh;
     }
 
-    section#bambus-02 div.text-holder {
+    section#lan-02 div.text-holder {
       font-size: 20px;
     }
 
-    section#bambus-03 {
+    section#lan-03 {
       height: 80vh;
     }
 
-    section#bambus-03 div.text-holder {
+    section#lan-03 div.text-holder {
       font-size: 20px;
     }
 }
@@ -287,27 +287,27 @@ section.grid img{
       grid-template-columns: auto auto auto;
     }
 
-    section#bambus-01 {
+    section#lan-01 {
       height: 50vh;
     }
 
-    section#bambus-01 div.text-holder {
+    section#lan-01 div.text-holder {
       font-size: 30px;
     }
 
-    section#bambus-02 {
+    section#lan-02 {
       height: 50vh;
     }
 
-    section#bambus-02 div.text-holder {
+    section#lan-02 div.text-holder {
       font-size: 30px;
     }
 
-    section#bambus-03 {
+    section#lan-03 {
       height: 50vh;
     }
 
-    section#bambus-03 div.text-holder {
+    section#lan-03 div.text-holder {
       font-size: 30px;
     }
 
