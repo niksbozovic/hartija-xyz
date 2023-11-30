@@ -135,36 +135,6 @@ section#bambus-01 span {
   color: #6FB563;
 }
 
-section#bambus-01 {
-  display: block;
-  position: relative;
-  background: #eae1c5;
-  padding: 0;
-}
-
-section#bambus-01 div.text-holder {
-  margin: 8% 20%;
-  display: block;
-  position: absolute;
-  justify-content: center;
-  align-content: center;
-}
-
-section#bambus-01 p{
-  font-family: "Ortica Linear Light", serif;
-  font-weight: 100;
-  display: block;
-  color: #242526;
-}
-
-section#bambus-01 span {
-  font-family: "Antikva Neue";
-  font-weight: 700;
-  font-style: italic;
-  display: inline;
-  color: #6FB563;
-}
-
 section#bambus-02 {
   display: block;
   position: relative;
