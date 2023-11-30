@@ -135,36 +135,6 @@ section#pamuk-01 span {
   color: #FF3D5A;
 }
 
-section#pamuk-01 {
-  display: block;
-  position: relative;
-  background: #eae1c5;
-  padding: 0;
-}
-
-section#pamuk-01 div.text-holder {
-  margin: 8% 20%;
-  display: block;
-  position: absolute;
-  justify-content: center;
-  align-content: center;
-}
-
-section#pamuk-01 p{
-  font-family: "Ortica Linear Light", serif;
-  font-weight: 100;
-  display: block;
-  color: #242526;
-}
-
-section#pamuk-01 span {
-  font-family: "Antikva Neue";
-  font-weight: 700;
-  font-style: italic;
-  display: inline;
-  color: #FF3D5A;
-}
-
 section#pamuk-02 {
   display: block;
   position: relative;
@@ -253,7 +223,7 @@ section.grid img{
     }
 
     section#pamuk-01 {
-      height: 40vh  ;
+      height: 80vh;
     }
 
     section#pamuk-01 div.text-holder {
@@ -288,7 +258,7 @@ section.grid img{
     }
 
     section#pamuk-01 {
-      height: 50vh;
+      height: 80vh;
     }
 
     section#pamuk-01 div.text-holder {
@@ -296,7 +266,7 @@ section.grid img{
     }
 
     section#pamuk-02 {
-      height: 50vh;
+      height: 80vh;
     }
 
     section#pamuk-02 div.text-holder {
@@ -304,7 +274,7 @@ section.grid img{
     }
 
     section#pamuk-03 {
-      height: 50vh;
+      height: 80vh;
     }
 
     section#pamuk-03 div.text-holder {
