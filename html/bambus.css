@@ -274,6 +274,7 @@ section.grid img{
     }
 
     section#bambus-03 {
+      height: 100vh;
     }
 
     section#bambus-03 div.text-holder {
