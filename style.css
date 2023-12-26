@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Antikva Neue";
-  src: url('./fonts/Antikva Neue.woff2') format('woff2'),
-       url('./fonts/Antikva Neue.woff') format('woff');
+  src: url('./fonts/Antikva Neue Bold.woff2') format('woff2'),
+       url('./fonts/Antikva Neue Bold.woff') format('woff');
   font-weight: 700;
   font-style: italic;
 }
