@@ -5,20 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>lan</title>
 	<link rel="stylesheet" type="text/css" href="./lan.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 	<header>
 		<div id="naslov">
 			<a href="../index.html"><h1>hartija</h1></a>
 		</div>
-
-		<nav>
-			<h1>
-				<a href="./lan.html" class="lan">lan</a>
-				<a href="./pamuk.html" class="pamuk">pamuk</a>
-				<a href="./bambus.html" class="bambus">bambus</a>
-			</h1>
-		</nav>
 	</header>
 	
 	<section class="vid">
@@ -56,9 +49,26 @@
 	</section>
 
 	<section class="grid">
-		<a href="./lan.html"><img src="../images/lan active.gif"></a>
-		<a href="./pamuk.html"><img src="../images/pamuk active.gif"></a>
-		<a href="./bambus.html"><img src="../images/bambus active.gif"></a>
+		<a class="tag" href="../html/lan.html"><img src="../images/lan active.gif"></a>
+		<a class="tag" href="../html/pamuk.html"><img src="../images/pamuk active.gif"></a>
+		<a class="tag" href="../html/bambus.html"><img src="../images/bambus active.gif"></a>
+		<div class="button"><img src="../images/h.png"></div>
 	</section>
+
+	<script>
+
+		$('.button').click(function() {
+		var clicks = $(this).data('clicks');
+		if (clicks) {
+			console.log("hover in");
+			$(".tag").css("visibility", "visible");
+		} else {
+			console.log("hover out");
+			$(".tag").css("visibility", "hidden");
+		}
+		  $(this).data("clicks", !clicks);
+		});
+
+    </script>
 </body>
 </html>

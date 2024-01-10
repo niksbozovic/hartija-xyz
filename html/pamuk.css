@@ -23,76 +23,47 @@ body {
 }
 
 header {
-  position: sticky;
-  z-index: 100;
+  position: relative;
   top: 0;
   margin: 0;
-  padding: 10px 0 10px 0;
-  background-color: #eae1c5;
-  display: grid;
-  grid-template-columns: auto auto;
+  padding: 15px 0 15px 0;
+  background-color: #242526;
+  display: inline;
 }
 
-header h1 {
-  font-family: "Antikva Neue", serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 20px;
-  color: #242526;
-  width:200px;
-  margin: 0;  
-}
-
-.naslov a {
+#naslov h1 {
   font-family: "Antikva Neue", serif;
   font-weight: 700;
   font-style: italic;
   font-size: 20px;
   text-decoration: none;
-  color: #242526;
-  width:200px;
-  margin: 0;  
+  color: #eae1c5;
+  width:100vw;
+  text-align: center;
 }
 
-.naslov a:hover{
-  font-family: "Ortica Linear Light";
+#naslov a:link {
+  text-decoration: none;
+}
+
+#naslov a:hover {
+  font-family: "Antikva Neue";
   font-family: 100;
-  font-size: 20px;
+  font-size: 20px;  
+  text-decoration: underline;
+  color: #eae1c5;
 }
 
-header p{
-  font-family: "Ortica Linear Light", serif;
-  font-weight: 100;
-  font-size: 20px;
-  color: #242526;
-  margin: 0;
-}
-
-nav a {
-  color: #242526;
+#naslov a:visited {
   text-decoration: none;
-}
+  color: #eae1c5;
 
-nav a.lan:hover {
-  color: #868BE9;
-}
-
-nav a.pamuk:hover {
-  color: #FF3D5A;
-}
-
-nav a.bambus:hover {
-  color: #6FB563;
 }
 
 #naslov {
-  margin-left: 30px;
-  justify-self: left;
-}
-
-nav {
-  margin-right: 30px;
-  justify-self: right;
+  position: relative;
+  align-content: center;
+  justify-content: center;
 }
 
 section.vid div.holder {
@@ -198,18 +169,22 @@ section#pamuk-03 span {
 }
 
 section.grid {
+  position: fixed;
+  right: 5vh;
+  bottom: 5vh;
   display: grid;
-  margin: 5vh 5vw 5vh 15vw;
-  grid-row-gap: 5vw;
-  grid-column-gap: 5vw;
+  grid-row-gap: 2vw;
+  grid-column-gap:2vw;
+}
+
+section.grid img{
+  width: 5vw;
   justify-content: center;
   align-items: center;
 }
 
-section.grid img{
-  width: 50%;
-  justify-content: center;
-  align-items: center;
+section.grid .tag {
+  visibility: hidden;
 }
 
 
@@ -219,7 +194,11 @@ section.grid img{
     }
 
     section.grid {
-      grid-template-columns: auto auto auto;
+      grid-template-columns: auto auto auto auto;
+    }
+
+    section.grid img {
+      width: 10vw;
     }
 
     section#pamuk-01 {
@@ -254,7 +233,7 @@ section.grid img{
     }
 
     section.grid {
-      grid-template-columns: auto auto auto;
+      grid-template-columns: auto;
     }
 
     section#pamuk-01 {
