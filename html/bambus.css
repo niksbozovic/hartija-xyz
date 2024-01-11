@@ -114,7 +114,7 @@ section#bambus-02 {
 }
 
 section#bambus-02 div.text-holder {
-  margin: 5% 20%;
+  margin: 10% 20%;
   display: block;
   position: absolute;
   justify-content: center;
@@ -122,19 +122,39 @@ section#bambus-02 div.text-holder {
 }
 
 section#bambus-02 p{
+  margin: 0.1vh 0;
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   display: block;
   color: #eae1c5;
 }
 
-section#bambus-02 a, span {
-  font-family: "Antikva Neue";
+section#bambus-02 h1{
+  margin: 0.1vh 0;
+  font-family: "Antikva Neue", serif;
   font-weight: 700;
-  font-style: italic;
-  text-decoration: none;
-  display: inline;
-  color: #242526;
+  display: block;
+  color: #eae1c5;
+}
+
+section#bambus-02 a.btn{
+  position: absolute;;
+  display:inline-block;
+  padding:0.5vw 2vw;
+  border:0.1em solid #eae1c5;
+  border-radius:50px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:"Ortica Linear Light", serif;
+  font-weight:100;
+  font-style: normal;
+  color:#eae1c5;
+  text-align:center;
+}
+
+section#bambus-02 a.btn:hover{
+  color:#242526;
+  background-color:#eae1c5;
 }
 
 section#bambus-03 {
@@ -144,28 +164,37 @@ section#bambus-03 {
   padding: 0;
 }
 
-section#bambus-03 div.text-holder {
-  margin: 2% 20%;
-  display: block;
-  position: absolute;
-  justify-content: center;
-  align-content: center;
+section#bambus-03 .photo-grid-julia-lazar {
+  display:grid;
+  grid-template-columns: auto auto;
 }
 
-section#bambus-03 p{
-  font-family: "Ortica Linear Light", serif;
-  font-weight: 100;
-  display: block;
-  color: #eae1c5;
+section#bambus-03 .photo-grid-julia-lazar img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-section#bambus-03 span {
-  font-family: "Antikva Neue";
-  font-weight: 700;
-  font-style: italic;
-  text-decoration: none;
-  display: inline;
-  color: #6FB563;
+section#bambus-03 .photo-grid-teodora-nedeljkovic {
+  display:grid;
+  grid-template-columns: auto auto;
+}
+
+section#bambus-03 .photo-grid-teodora-nedeljkovic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section#bambus-03 .photo-grid-milica-krstovic {
+  display:grid;
+  grid-template-columns: auto auto;
+}
+
+section#bambus-03 .photo-grid-milica-krstovic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 section.grid {
@@ -210,7 +239,7 @@ section.grid .tag {
     }
 
     section#bambus-02 {
-      height: 100vh;
+      height: 50vh;
     }
 
     section#bambus-02 div.text-holder {
@@ -245,7 +274,7 @@ section.grid .tag {
     }
 
     section#bambus-02 {
-      height: 100vh;
+      height: 50vh;
     }
 
     section#bambus-02 div.text-holder {
