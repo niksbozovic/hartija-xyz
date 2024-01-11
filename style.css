@@ -106,6 +106,73 @@ section#opis span {
   color: #242526;
 }
 
+section#kontakt {
+  display: block;
+  position: relative;
+  background: #242526;
+  padding: 0;
+}
+
+section#kontakt div.text-holder {
+  margin: 12vh 20vw;
+  display: block;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+}
+
+section#kontakt p{
+  font-family: "Ortica Linear Light", serif;
+  font-weight: 100;
+  display: block;
+  color: #eae1c5;
+}
+
+section#kontakt span {
+  font-family: "Antikva Neue";
+  font-weight: 700;
+  font-style: italic;
+  display: inline;
+  color: #eae1c5;
+}
+
+section#kontakt a:link {
+  font-family: "Antikva Neue";
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+  display: inline;
+  color: #eae1c5;
+}
+
+section#kontakt a:hover {
+  font-family: "Antikva Neue";
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+  display: inline;
+  color: #eae1c5;
+}
+
+section#kontakt a.btn{
+  position: absolute;;
+  display:inline-block;
+  padding:0.5vw 2vw;
+  border:0.1em solid #eae1c5;
+  border-radius:50px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:"Ortica Linear Light", serif;
+  font-weight:100;
+  font-style: normal;
+  color:#eae1c5;
+  text-align:center;
+}
+
+section#kontakt a.btn:hover{
+  color:#242526;
+  background-color:#eae1c5;
+}
 
 section.grid {
   position: fixed;
@@ -146,6 +213,18 @@ section.grid .tag {
     section#opis div.text-holder {
       font-size: 20px;
     }
+
+    section#kontakt {
+      height: 50vh;
+    }
+
+    section#kontakt div.text-holder {
+      font-size: 20px;
+    }
+
+    section#kontakt a.btn{
+      margin: 30vh 40vw;
+    }
 }
     
 @media screen and (min-width: 701px) {
@@ -163,5 +242,16 @@ section.grid .tag {
 
     section#opis div.text-holder {
       font-size: 30px;
+    }
+
+    section#kontakt {
+      height: 50vh;
+    }
+
+    section#kontakt div.text-holder {
+      font-size: 20px;
+    }
+    section#kontakt a.btn{
+      margin: 25vh 45vw;
     }
 }
