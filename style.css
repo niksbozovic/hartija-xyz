@@ -123,6 +123,7 @@ section#kontakt div.text-holder {
 
 section#kontakt p{
   font-family: "Ortica Linear Light", serif;
+  font-size: 20px;
   font-weight: 100;
   display: block;
   color: #eae1c5;
@@ -130,6 +131,7 @@ section#kontakt p{
 
 section#kontakt span {
   font-family: "Antikva Neue";
+  font-size: 20px;
   font-weight: 700;
   font-style: italic;
   display: inline;
@@ -138,6 +140,7 @@ section#kontakt span {
 
 section#kontakt a:link {
   font-family: "Antikva Neue";
+  font-size: 20px;
   font-weight: 700;
   font-style: italic;
   text-decoration: none;
@@ -147,6 +150,7 @@ section#kontakt a:link {
 
 section#kontakt a:hover {
   font-family: "Antikva Neue";
+  font-size: 20px
   font-weight: 700;
   font-style: italic;
   text-decoration: underline;
@@ -157,12 +161,13 @@ section#kontakt a:hover {
 section#kontakt a.btn{
   position: absolute;;
   display:inline-block;
-  padding:0.5vw 2vw;
+  padding:1vw 2vw;
   border:0.1em solid #eae1c5;
   border-radius:50px;
   box-sizing: border-box;
   text-decoration:none;
   font-family:"Ortica Linear Light", serif;
+  font-size: 15px;
   font-weight:100;
   font-style: normal;
   color:#eae1c5;
@@ -199,7 +204,7 @@ section.grid .tag {
         display: none;
     }
     section.grid {
-      grid-template-columns: auto auto auto auto;
+      grid-template-columns: auto;
     }
 
     section.grid img {
@@ -208,10 +213,6 @@ section.grid .tag {
 
     section#opis {
       height: 75vh;
-    }
-
-    section#opis div.text-holder {
-      font-size: 20px;
     }
 
     section#kontakt {
@@ -238,10 +239,6 @@ section.grid .tag {
 
     section#opis {
       height: 100vh;
-    }
-
-    section#opis div.text-holder {
-      font-size: 30px;
     }
 
     section#kontakt {

@@ -195,7 +195,7 @@ section.grid .tag {
     }
 
     section.grid {
-      grid-template-columns: auto auto auto auto;
+      grid-template-columns: auto;
     }
 
     section.grid img {

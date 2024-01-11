@@ -140,12 +140,14 @@ section#bambus-02 h1{
 section#bambus-02 a.btn{
   position: absolute;;
   display:inline-block;
-  padding:0.5vw 2vw;
+  margin: 0.5vh 0;
+  padding:1vw 2vw;
   border:0.1em solid #eae1c5;
   border-radius:50px;
   box-sizing: border-box;
   text-decoration:none;
   font-family:"Ortica Linear Light", serif;
+  font-size: 15px;
   font-weight:100;
   font-style: normal;
   color:#eae1c5;
@@ -222,7 +224,7 @@ section.grid .tag {
     }
 
     section.grid {
-      grid-template-columns: auto auto auto auto;
+      grid-template-columns: auto;
     }
 
     section.grid img {
