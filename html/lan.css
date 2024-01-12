@@ -216,6 +216,36 @@ section#lan-04 p{
   display: block;
   color: #eae1c5;
 }
+
+section#lan-05 {
+  display: block;
+  position: relative;
+  background: #242526;
+  padding: 0;
+}
+
+section#lan-05 div.text-holder {
+  margin: 2% 20%;
+  display: block;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+}
+
+section#lan-05 h1{
+  font-family: 'Antikva Neue', serif;
+  font-weight: 700;
+  display: block;
+  color: #868BE9;
+}
+
+section#lan-05 p{
+  font-family: "Ortica Linear Light", serif;
+  font-weight: 100;
+  display: block;
+  color: #eae1c5;
+}
+
 section.grid {
   position: fixed;
   right: 5vh;
@@ -250,7 +280,7 @@ section.grid .tag {
     }
 
     section#lan-01 {
-      height: 100vh;
+      height: 50vh;
     }
 
     section#lan-01 div.text-holder {
@@ -280,6 +310,14 @@ section.grid .tag {
     section#lan-04 div.text-holder {
       font-size: 20px;
     }
+
+    section#lan-05 {
+      height: 50vh;
+    }
+
+    section#lan-05 div.text-holder {
+      font-size: 20px;
+    }
 }
     
 @media screen and (min-width: 701px) {
@@ -293,7 +331,7 @@ section.grid .tag {
     }
 
     section#lan-01 {
-      height: 100vh;
+      height: 50vh;
     }
 
     section#lan-01 div.text-holder {
@@ -323,4 +361,13 @@ section.grid .tag {
     section#lan-04 div.text-holder {
       font-size: 30px;
     }
+
+    section#lan-05 {
+      height: 70vh;
+    }
+
+    section#lan-05 div.text-holder {
+      font-size: 30px;
+    }
+
 }

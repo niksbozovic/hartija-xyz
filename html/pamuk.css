@@ -260,7 +260,7 @@ section.grid .tag {
     }
 
     section#pamuk-01 {
-      height: 100vh;
+      height: 50vh;
     }
 
     section#pamuk-01 div.text-holder {
@@ -312,7 +312,7 @@ section.grid .tag {
     }
 
     section#pamuk-01 {
-      height: 100vh;
+      height: 50vh;
     }
 
     section#pamuk-01 div.text-holder {
@@ -328,7 +328,7 @@ section.grid .tag {
     }
 
     section#pamuk-03 {
-      height: 150vh;
+      height: 130vh;
     }
 
     section#pamuk-03 div.text-holder {
@@ -336,11 +336,11 @@ section.grid .tag {
     }
 
     section#pamuk-04 {
-      height: 170vh;
+      height: 130vh;
     }
 
     section#pamuk-04 div.text-holder {
-      font-size: 20px;
+      font-size: 30px;
     }
 
     section#pamuk-05 {
@@ -348,7 +348,7 @@ section.grid .tag {
     }
 
     section#pamuk-05 div.text-holder {
-      font-size: 20px;
+      font-size: 30px;
     }
 
 }
