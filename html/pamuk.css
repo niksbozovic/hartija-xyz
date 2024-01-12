@@ -223,8 +223,8 @@ section.grid .tag {
       font-size: 20px;
     }
 
-    section#pamuk-02 {
-      height: 100vh;
+   section#pamuk-02 {
+      height: 30vh;
     }
 
     section#pamuk-02 div.text-holder {
@@ -232,6 +232,10 @@ section.grid .tag {
     }
 
     section#pamuk-03 {
+      height: 100vh;
+    }
+
+    section#pamuk-03 div.minja{
       height: 150vh;
     }
 
