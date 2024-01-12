@@ -109,12 +109,12 @@ section#pamuk-01 span {
 section#pamuk-02 {
   display: block;
   position: relative;
-  background: #FF3D5A;
+  background: #868BE9;
   padding: 0;
 }
 
 section#pamuk-02 div.text-holder {
-  margin: 5% 20%;
+  margin: 10% 20%;
   display: block;
   position: absolute;
   justify-content: center;
@@ -122,19 +122,42 @@ section#pamuk-02 div.text-holder {
 }
 
 section#pamuk-02 p{
+  margin: 0.1vh 0;
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   display: block;
   color: #eae1c5;
 }
 
-section#pamuk-02 a, span {
-  font-family: "Antikva Neue";
+section#pamuk-02 h1{
+  margin: 0.1vh 0;
+  font-family: 'Antikva Neue', serif;
   font-weight: 700;
   font-style: normal;
-  text-decoration: none;
-  display: inline;
-  color: #242526;
+  display: block;
+  color: #eae1c5;
+}
+
+section#pamuk-02 a.btn{
+  position: absolute;;
+  display:inline-block;
+  margin: 0.5vh 0;
+  padding:1vw 2vw;
+  border:0.1em solid #eae1c5;
+  border-radius:50px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:"Ortica Linear Light", serif;
+  font-size: 15px;
+  font-weight:100;
+  font-style: normal;
+  color:#eae1c5;
+  text-align:center;
+}
+
+section#pamuk-02 a.btn:hover{
+  color:#242526;
+  background-color:#eae1c5;
 }
 
 section#pamuk-03 {
@@ -157,15 +180,6 @@ section#pamuk-03 p{
   font-weight: 100;
   display: block;
   color: #eae1c5;
-}
-
-section#pamuk-03 span {
-  font-family: "Antikva Neue";
-  font-weight: 700;
-  font-style: normal;
-  text-decoration: none;
-  display: inline;
-  color: #FF3D5A;
 }
 
 section.grid {
@@ -218,7 +232,7 @@ section.grid .tag {
     }
 
     section#pamuk-03 {
-      height: 100vh;
+      height: 150vh;
     }
 
     section#pamuk-03 div.text-holder {
@@ -245,7 +259,7 @@ section.grid .tag {
     }
 
     section#pamuk-02 {
-      height: 100vh;
+      height: 50vh;
     }
 
     section#pamuk-02 div.text-holder {
@@ -253,11 +267,10 @@ section.grid .tag {
     }
 
     section#pamuk-03 {
-      height: 100vh;
+      height: 150vh;
     }
 
     section#pamuk-03 div.text-holder {
       font-size: 30px;
     }
-
 }
