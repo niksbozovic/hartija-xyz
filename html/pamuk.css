@@ -182,6 +182,50 @@ section#pamuk-03 p{
   color: #eae1c5;
 }
 
+section#pamuk-04 {
+  display: block;
+  position: relative;
+  background: #242526;
+  padding: 0;
+}
+
+section#pamuk-04 div.text-holder {
+  margin: 2% 20%;
+  display: block;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+}
+
+section#pamuk-04 p{
+  font-family: "Ortica Linear Light", serif;
+  font-weight: 100;
+  display: block;
+  color: #eae1c5;
+}
+
+section#pamuk-05 {
+  display: block;
+  position: relative;
+  background: #242526;
+  padding: 0;
+}
+
+section#pamuk-05 div.text-holder {
+  margin: 2% 20%;
+  display: block;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+}
+
+section#pamuk-05 p{
+  font-family: "Ortica Linear Light", serif;
+  font-weight: 100;
+  display: block;
+  color: #eae1c5;
+}
+
 section.grid {
   position: fixed;
   right: 5vh;
@@ -232,16 +276,29 @@ section.grid .tag {
     }
 
     section#pamuk-03 {
-      height: 150vh;
-    }
-
-    section#pamuk-03 div.sara{
-      height: 170vh;
+      height: 130vh;
     }
 
     section#pamuk-03 div.text-holder {
       font-size: 20px;
     }
+
+    section#pamuk-04 {
+      height: 170vh;
+    }
+
+    section#pamuk-04 div.text-holder {
+      font-size: 20px;
+    }
+
+    section#pamuk-05 {
+      height: 120vh;
+    }
+
+    section#pamuk-05 div.text-holder {
+      font-size: 20px;
+    }
+
 }
     
 @media screen and (min-width: 701px) {
@@ -274,11 +331,24 @@ section.grid .tag {
       height: 150vh;
     }
 
-    section#pamuk-03 div.sara{
-      height: 170vh;
-    }
-
     section#pamuk-03 div.text-holder {
       font-size: 30px;
     }
+
+    section#pamuk-04 {
+      height: 170vh;
+    }
+
+    section#pamuk-04 div.text-holder {
+      font-size: 20px;
+    }
+
+    section#pamuk-05 {
+      height: 120vh;
+    }
+
+    section#pamuk-05 div.text-holder {
+      font-size: 20px;
+    }
+
 }

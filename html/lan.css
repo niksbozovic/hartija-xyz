@@ -188,6 +188,34 @@ section#lan-03 p{
   color: #eae1c5;
 }
 
+section#lan-04 {
+  display: block;
+  position: relative;
+  background: #242526;
+  padding: 0;
+}
+
+section#lan-04 div.text-holder {
+  margin: 2% 20%;
+  display: block;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+}
+
+section#lan-04 h1{
+  font-family: 'Antikva Neue', serif;
+  font-weight: 700;
+  display: block;
+  color: #868BE9;
+}
+
+section#lan-04 p{
+  font-family: "Ortica Linear Light", serif;
+  font-weight: 100;
+  display: block;
+  color: #eae1c5;
+}
 section.grid {
   position: fixed;
   right: 5vh;
@@ -241,11 +269,15 @@ section.grid .tag {
       height: 100vh;
     }
 
-    section#lan-03 div.minja{
-      height: 150vh;
+    section#lan-03 div.text-holder {
+      font-size: 20px;
     }
 
-    section#lan-03 div.text-holder {
+    section#lan-04 {
+      height: 160vh;
+    }
+
+    section#lan-04 div.text-holder {
       font-size: 20px;
     }
 }
@@ -280,12 +312,15 @@ section.grid .tag {
       height: 100vh;
     }
 
-    section#lan-03 div.minja{
-      height: 150vh;
-    }
-
     section#lan-03 div.text-holder {
       font-size: 30px;
     }
 
+    section#lan-04 {
+      height: 120vh;
+    }
+
+    section#lan-04 div.text-holder {
+      font-size: 30px;
+    }
 }
