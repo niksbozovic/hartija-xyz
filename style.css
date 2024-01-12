@@ -240,7 +240,7 @@ section.grid .tag {
 
     section#opis {
       height: 100vh;
-      font-size: 20px;
+      font-size: 30px;
     }
 
     section#kontakt {
@@ -248,7 +248,7 @@ section.grid .tag {
     }
 
     section#kontakt div.text-holder {
-      font-size: 30px;
+      font-size: 20px;
     }
     section#kontakt a.btn{
       margin: 25vh 45vw;
