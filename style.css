@@ -213,7 +213,7 @@ section.grid .tag {
 
     section#opis {
       height: 75vh;
-    }
+      font-size: 20px;
 
     section#kontakt {
       height: 50vh;
@@ -239,6 +239,7 @@ section.grid .tag {
 
     section#opis {
       height: 100vh;
+      font-size: 20px;
     }
 
     section#kontakt {
