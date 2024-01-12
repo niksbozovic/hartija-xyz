@@ -3,7 +3,7 @@
   src: url('./fonts/Antikva Neue Bold.woff2') format('woff2'),
        url('./fonts/Antikva Neue Bold.woff') format('woff');
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
 }
 
 
@@ -34,7 +34,7 @@ header {
 #naslov h1 {
   font-family: "Antikva Neue", serif;
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   font-size: 20px;
   text-decoration: none;
   color: #eae1c5;
@@ -101,7 +101,7 @@ section#opis p{
 section#opis span {
   font-family: "Antikva Neue";
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   display: inline;
   color: #242526;
 }
@@ -133,7 +133,7 @@ section#kontakt span {
   font-family: "Antikva Neue";
   font-size: 20px;
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   display: inline;
   color: #eae1c5;
 }
@@ -142,7 +142,7 @@ section#kontakt a:link {
   font-family: "Antikva Neue";
   font-size: 20px;
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   text-decoration: none;
   display: inline;
   color: #eae1c5;
@@ -152,7 +152,7 @@ section#kontakt a:hover {
   font-family: "Antikva Neue";
   font-size: 20px
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   text-decoration: underline;
   display: inline;
   color: #eae1c5;

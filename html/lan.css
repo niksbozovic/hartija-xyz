@@ -3,7 +3,7 @@
   src: url('../fonts/Antikva Neue Bold.woff2') format('woff2'),
        url('../fonts/Antikva Neue Bold.woff') format('woff');
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
 }
 
 @font-face {
@@ -32,7 +32,7 @@ header {
 #naslov h1 {
   font-family: "Antikva Neue", serif;
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   font-size: 20px;
   text-decoration: none;
   color: #eae1c5;
@@ -100,7 +100,7 @@ section#lan-01 p{
 section#lan-01 span {
   font-family: "Antikva Neue";
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   display: inline;
   color: #868BE9;
 }
@@ -132,7 +132,7 @@ section#lan-02 h1{
   margin: 0.1vh 0;
   font-family: "Antikva Neue", serif;
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   display: block;
   color: #eae1c5;
 }
