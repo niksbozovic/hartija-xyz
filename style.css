@@ -213,6 +213,13 @@ section.grid .tag {
 
     section#opis {
       height: 75vh;
+    }
+
+    section#opis p{
+      font-size: 20px;
+    }
+
+    section#opis span{
       font-size: 20px;
     }
 
@@ -240,6 +247,13 @@ section.grid .tag {
 
     section#opis {
       height: 100vh;
+    }
+
+    section#opis p{
+      font-size: 30px;
+    }
+
+    section#opis span{
       font-size: 30px;
     }
 
