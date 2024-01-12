@@ -182,14 +182,14 @@ section#pamuk-03 p{
   color: #eae1c5;
 }
 
-section#sara {
+section#pamuk-04 {
   display: block;
   position: relative;
   background: #242526;
   padding: 0;
 }
 
-section#sara div.text-holder {
+section#pamuk-04 div.text-holder {
   margin: 2% 20%;
   display: block;
   position: absolute;
@@ -197,7 +197,7 @@ section#sara div.text-holder {
   align-content: center;
 }
 
-section#sara p{
+section#pamuk-04 p{
   font-family: "Ortica Linear Light", serif;
   font-weight: 100;
   display: block;
@@ -286,12 +286,12 @@ section.grid .tag {
       font-size: 20px;
     }
 
-    section#sara {
+    section#pamuk-04 {
       height: 180vh;
       height: 180dvh;
     }
 
-    section#sara div.text-holder {
+    section#pamuk-04 div.text-holder {
       font-size: 20px;
     }
 
@@ -343,12 +343,12 @@ section.grid .tag {
       font-size: 30px;
     }
 
-    section#sara {
+    section#pamuk-04 {
       height: 130vh;
       height: 130dvh;
     }
 
-    section#sara div.text-holder {
+    section#pamuk-04 div.text-holder {
       font-size: 30px;
     }
 
