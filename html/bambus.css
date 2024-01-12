@@ -234,6 +234,7 @@ section.grid .tag {
 
     section#bambus-01 {
       height: 50vh;
+      height: 50dvh;
     }
 
     section#bambus-01 div.text-holder {
@@ -242,6 +243,7 @@ section.grid .tag {
 
     section#bambus-02 {
       height: 30vh;
+      height: 30dvh;
     }
 
     section#bambus-02 div.text-holder {
@@ -261,6 +263,7 @@ section.grid .tag {
 
     section#bambus-01 {
       height: 50vh;
+      height: 50dvh;
     }
 
     section#bambus-01 div.text-holder {
@@ -269,6 +272,7 @@ section.grid .tag {
 
     section#bambus-02 {
       height: 50vh;
+      height: 50dvh;
     }
 
     section#bambus-02 div.text-holder {

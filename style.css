@@ -213,6 +213,7 @@ section.grid .tag {
 
     section#opis {
       height: 75vh;
+      height: 75dvh;
     }
 
     section#opis p{
@@ -225,6 +226,7 @@ section.grid .tag {
 
     section#kontakt {
       height: 50vh;
+      height: 50dvh;
     }
 
     section#kontakt div.text-holder {
@@ -247,6 +249,7 @@ section.grid .tag {
 
     section#opis {
       height: 100vh;
+      height: 100dvh;
     }
 
     section#opis p{
@@ -259,6 +262,7 @@ section.grid .tag {
 
     section#kontakt {
       height: 50vh;
+      height: 50dvh;
     }
 
     section#kontakt div.text-holder {
