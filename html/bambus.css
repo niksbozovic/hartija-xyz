@@ -233,21 +233,19 @@ section.grid .tag {
     }
 
     section#bambus-01 {
-      height: 50vh;
-      height: 50dvh;
+      height: 40dvh;
     }
 
     section#bambus-01 div.text-holder {
-      font-size: 20px;
+      font-size: 15px;
     }
 
     section#bambus-02 {
-      height: 30vh;
-      height: 30dvh;
+      height: 25dvh;
     }
 
     section#bambus-02 div.text-holder {
-      font-size: 20px;
+      font-size: 15px;
     }
 }
     

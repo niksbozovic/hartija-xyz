@@ -212,25 +212,23 @@ section.grid .tag {
     }
 
     section#opis {
-      height: 75vh;
-      height: 75dvh;
-    }
-
-    section#opis p{
-      font-size: 20px;
-    }
-
-    section#opis span{
-      font-size: 20px;
-    }
-
-    section#kontakt {
-      height: 50vh;
       height: 50dvh;
     }
 
+    section#opis p{
+      font-size: 15px;
+    }
+
+    section#opis span{
+      font-size: 15px;
+    }
+
+    section#kontakt {
+      height: 40dvh;
+    }
+
     section#kontakt div.text-holder {
-      font-size: 20px;
+      font-size: 15px;
     }
 
     section#kontakt a.btn{

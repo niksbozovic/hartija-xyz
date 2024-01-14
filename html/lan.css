@@ -280,48 +280,43 @@ section.grid .tag {
     }
 
     section#lan-01 {
-      height: 50vh;
-      height: 50dvh;
+      height: 40dvh;
     }
 
     section#lan-01 div.text-holder {
-      font-size: 20px;
+      font-size: 15px;
     }
 
    section#lan-02 {
-      height: 30vh;
-      height: 30dvh;
+      height: 25dvh;
     }
 
     section#lan-02 div.text-holder {
-      font-size: 20px;
+      font-size: 15px;
     }
 
     section#lan-03 {
-      height: 100vh;
-      height: 100dvh;
+      height: 80dvh;
     }
 
     section#lan-03 div.text-holder {
-      font-size: 20px;
+      font-size: 15px;
     }
 
     section#lan-04 {
-      height: 160vh;
-      height: 160dvh;
+      height: 130dvh;
     }
 
     section#lan-04 div.text-holder {
-      font-size: 20px;
+      font-size: 15px;
     }
 
     section#lan-05 {
-      height: 50vh;
-      height: 50dvh;
+      height: 40dvh;
     }
 
     section#lan-05 div.text-holder {
-      font-size: 20px;
+      font-size: 15px;
     }
 }
     
@@ -336,7 +331,6 @@ section.grid .tag {
     }
 
     section#lan-01 {
-      height: 50vh;
       height: 50dvh;
     }
 
@@ -345,7 +339,6 @@ section.grid .tag {
     }
 
     section#lan-02 {
-      height: 50vh;
       height: 50dvh;
     }
 
@@ -354,7 +347,6 @@ section.grid .tag {
     }
 
     section#lan-03 {
-      height: 100vh;
       height: 100dvh;
     }
 
@@ -363,7 +355,6 @@ section.grid .tag {
     }
 
     section#lan-04 {
-      height: 120vh;
       height: 120dvh;
     }
 
@@ -372,7 +363,6 @@ section.grid .tag {
     }
 
     section#lan-05 {
-      height: 70vh;
       height: 70dvh;
     }
 
