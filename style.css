@@ -114,7 +114,7 @@ section#kontakt {
 }
 
 section#kontakt div.text-holder {
-  margin: 12vh 20vw;
+  margin: 5dvh 20dvw;
   display: block;
   position: absolute;
   justify-content: center;
@@ -232,7 +232,7 @@ section.grid .tag {
     }
 
     section#kontakt a.btn{
-      margin: 35vh 40vw;
+      margin: 25vh 40vw;
     }
 }
     
@@ -267,6 +267,6 @@ section.grid .tag {
       font-size: 20px;
     }
     section#kontakt a.btn{
-      margin: 25vh 45vw;
+      margin: 20dvh 45vw;
     }
 }
