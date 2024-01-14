@@ -224,7 +224,7 @@ section.grid .tag {
     }
 
     section#kontakt {
-      height: 40dvh;
+      height: 50dvh;
     }
 
     section#kontakt div.text-holder {
@@ -232,7 +232,7 @@ section.grid .tag {
     }
 
     section#kontakt a.btn{
-      margin: 25vh 40vw;
+      margin: 20vh 40vw;
     }
 }
     
