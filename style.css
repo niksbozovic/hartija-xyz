@@ -106,6 +106,34 @@ section#opis span {
   color: #242526;
 }
 
+section#opis a:link {
+  font-family: "Antikva Neue";
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  display: inline;
+  color: #242526;
+}
+
+section#opis a:hover {
+  font-family: "Antikva Neue";
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: underline;
+  display: inline;
+  color: #242526;
+}
+
+section#opis a:visited {
+  font-family: "Antikva Neue";
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: underline;
+  display: inline;
+  color: #242526;
+}
+
+
 section#kontakt {
   display: block;
   position: relative;
@@ -232,7 +260,7 @@ section.grid .tag {
     }
 
     section#kontakt a.btn{
-      margin: 25vh 40vw;
+      margin: 25  vh 40vw;
     }
 }
     

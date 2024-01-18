@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Antikva Neue";
+  src: url('../fonts/Antikva Neue Bold.woff2') format('woff2'),
+       url('../fonts/Antikva Neue Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "Ortica Linear Light";
+  src: url('../fonts/OrticaLinear-Light.woff2') format('woff2'),
+       url('../fonts/OrticaLinear-Light.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #242526;
+}
+
+header {
+  position: relative;
+  top: 0;
+  margin: 0;
+  padding: 15px 0 15px 0;
+  background-color: #242526;
+  display: inline;
+}
+
+#naslov h1 {
+  font-family: "Antikva Neue", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+  color: #eae1c5;
+  width:100vw;
+  text-align: center;
+}
+
+#naslov a:link {
+  text-decoration: none;
+}
+
+#naslov a:hover {
+  font-family: "Antikva Neue";
+  font-family: 100;
+  font-size: 20px;  
+  text-decoration: underline;
+  color: #eae1c5;
+}
+
+#naslov a:visited {
+  text-decoration: none;
+  color: #eae1c5;
+
+}
+
+#naslov {
+  position: relative;
+  align-content: center;
+  justify-content: center;
+}
+
+section#poetsko-vece-01 {
+  display: block;
+  position: relative;
+  background: #eae1c5;
+  padding: 0;
+}
+
+section#poetsko-vece-01 div.text-holder {
+  margin: 6% 20%;
+  display: block;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+}
+
+section#poetsko-vece-01 p{
+  font-family: "Ortica Linear Light", serif;
+  font-weight: 100;
+  display: block;
+  color: #242526;
+}
+
+section#poetsko-vece-01 span{
+  font-family: "Antikva Neue", serif;
+  font-weight: 700;
+  display: inline;
+  color: #242526;
+}
+
+section#poetsko-vece-02 {
+  position: relative;
+  background: #242526;
+  padding: 0;
+}
+
+section#poetsko-vece-02 .photo-grid-poetsko-vece {
+  display:grid;
+  grid-template-columns: auto auto;
+}
+
+section#poetsko-vece-02 .photo-grid-poetsko-vece img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.grid {
+  position: fixed;
+  right: 5vh;
+  bottom: 5vh;
+  display: grid;
+  grid-row-gap: 2vw;
+  grid-column-gap:2vw;
+}
+
+section.grid img{
+  width: 5vw;
+  justify-content: center;
+  align-items: center;
+}
+
+section.grid .tag {
+  visibility: hidden;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    section.grid {
+      grid-template-columns: auto;
+    }
+
+    section.grid img {
+      width: 10vw;
+    }
+
+    section#poetsko-vece-01 {
+      height: 30dvh;
+    }
+
+    section#poetsko-vece-01 div.text-holder {
+      font-size: 15px;
+    }
+}
+    
+@media screen and (min-width: 701px) {
+
+    section.grid {
+      grid-template-columns: auto;
+    }
+
+    section#poetsko-vece-01 {
+      height: 40dvh;
+    }
+
+    section#poetsko-vece-01 div.text-holder {
+      font-size: 30px;
+    }
+
+}

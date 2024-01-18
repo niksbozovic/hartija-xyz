@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>poetsko veče</title>
+	<link rel="stylesheet" type="text/css" href="./poetsko-vece.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<div id="naslov">
+			<a href="../index.html"><h1>hartija</h1></a>
+		</div>
+	</header>
+
+	<section id="poetsko-vece-01">
+		<div class="text-holder">
+			<p><span class="poetsko-vece">hartija</span> je organizovala poetsko veče u sredu, 17.1.2024. godine u Kvaki 22. Ovo su fotografije sa nje.
+			</p>
+		</div>
+	</section>
+
+	<section id="poetsko-vece-02">
+		<div class="photo-grid-poetsko-vece">
+			<img src="../images/poetsko-vece/poetsko-vece-1.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-2.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-3.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-4.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-5.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-6.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-7.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-8.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-9.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-10.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-11.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-12.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-13.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-14.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-15.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-16.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-17.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-18.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-19.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-20.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-21.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-22.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-23.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-24.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-25.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-26.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-27.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-28.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-29.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-30.jpg">
+			<img src="../images/poetsko-vece/poetsko-vece-31.jpg">
+			<img src="../images/poetsko-vece/prints-1.jpg">
+			<img src="../images/poetsko-vece/prints-2.jpg">
+			<img src="../images/poetsko-vece/prints-3.jpg">
+			<img src="../images/poetsko-vece/prints-4.jpg">
+			<img src="../images/poetsko-vece/prints-5.jpg">
+			<img src="../images/poetsko-vece/prints-6.jpg">
+			<img src="../images/poetsko-vece/prints-7.jpg">
+			<img src="../images/poetsko-vece/prints-8.jpg">
+			<img src="../images/poetsko-vece/prints-9.jpg">
+			<img src="../images/poetsko-vece/prints-10.jpg">
+			<img src="../images/poetsko-vece/prints-11.jpg">
+			<img src="../images/poetsko-vece/prints-12.jpg">
+			<img src="../images/poetsko-vece/prints-13.jpg">
+		</div>
+	</section>
+
+	<section class="grid">
+		<a class="tag" href="../html/lan.html"><img src="../images/lan active.gif"></a>
+		<a class="tag" href="../html/pamuk.html"><img src="../images/pamuk active.gif"></a>
+		<a class="tag" href="../html/bambus.html"><img src="../images/bambus active.gif"></a>
+		<div class="button"><img src="../images/h.png"></div>
+	</section>
+
+	<script>
+		
+		$('.button').click(function() {
+		var clicks = $(this).data('clicks');
+		if (clicks) {
+			console.log("hover in");
+			$(".tag").css("visibility", "visible");
+		} else {
+			console.log("hover out");
+			$(".tag").css("visibility", "hidden");
+		}
+		  $(this).data("clicks", !clicks);
+		});
+
+    </script>
+</body>
+</html>
